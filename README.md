@@ -1,4 +1,5 @@
 # Uber Fare Estimator Lab
+![uber and lyft](https://upperline.s3.amazonaws.com/curriculum-assets/ruby/uber-lyft.png)
 
 How do Uber and Lyft figure out how much to charge passengers for their rides? They have a set of instructions (an algorithm) that takes in important information like distance, time, traffic, and number of passengers to figure out what price to set for a trip.
 
@@ -56,7 +57,7 @@ In this lab, you'll be writing ruby methods to calculate fares for various ride 
 
 **Example:** For a ride that is 2 miles and 10 minutes: `uberx_fare_calculator(2, 10)` should return **$5.32** ($0.40 initial fee, 2 miles at $0.97/mile, 10 minutes at $0.14/minute, $1.58 service cost)
 
-3) Create a more flexible fare calculator method called `fare_calculator` that takes in the type of ride, the distance and the time.
+3) Create a more flexible fare calculator method called `fare_calculator` that takes in the distance, the time, and the type of ride.
 
 **Example:** For a ride that is 2 miles and 10 minutes in an UberXL: `fare_calculator(2, 10, "UberXL")` should return **$9.81** ($2.15 initial fee, 2 miles at $1.68/mile, 10 minutes at $0.26/minute, $1.70 service cost)
 
