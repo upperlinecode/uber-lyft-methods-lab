@@ -61,6 +61,8 @@ In this lab, you'll be writing ruby methods to calculate fares for various ride 
 
 **Example:** For a ride that is 2 miles and 10 minutes in an UberXL: `fare_calculator(2, 10, "UberXL")` should return **$9.81** ($2.15 initial fee, 2 miles at $1.68/mile, 10 minutes at $0.26/minute, $1.70 service cost)
 
+*Bonus:* if no car type is given, have `fare_calculator` default to "UberX"
+
 **Advanced Bonus Challenge:**
 
 4) Uber, Lyft or Cab?: Look up the fares of using Lyft and yellow cabs in New York City and create a method `cheapest_ride` that accepts the distance and the time as parameters, and returns the cheapest service to take for that trip, along with the fare estimate. This is an open ended one - there are many ways to do this!
