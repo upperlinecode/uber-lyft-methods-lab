@@ -12,7 +12,7 @@ In this lab, you'll be writing ruby methods to calculate fares for various ride 
       <th><strong>Initial Fee</strong></th>
       <th><strong>Price Per Mile</strong></th>
       <th><strong>Price Per Minute</strong></th>
-      <th><strong>Service Cost</strong></th>
+      <th><strong>Minimum Fare</strong></th>    
     </tr>
   </thead>
   <tbody>
@@ -21,28 +21,28 @@ In this lab, you'll be writing ruby methods to calculate fares for various ride 
       <td>$0.40</td>
       <td>$0.97</td>
       <td>$0.14</td>
-      <td>$1.58</td>
+      <td>$5.00</td>
     </tr>
     <tr>
       <td><strong>uberXL</strong></td>
       <td>$2.15</td>
       <td>$1.68</td>
       <td>$0.26</td>
-      <td>$1.70</td>
+      <td>$7.75</td>
     </tr>
     <tr>
       <td><strong>UberSELECT</strong></td>
       <td>$4.02</td>
       <td>$2.17</td>
       <td>$0.33</td>
-      <td>$1.70</td>
+      <td>$9.50</td>
     </tr>
     <tr>
       <td><strong>UberBLACK</strong></td>
       <td>$7.22</td>
       <td>$3.33</td>
       <td>$0.44</td>
-      <td>$1.80</td>
+      <td>$10.00</td>
     </tr>
   </tbody>
 </table>
